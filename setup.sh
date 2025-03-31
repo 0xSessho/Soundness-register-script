@@ -26,7 +26,7 @@ source ~/.bashrc
 
 # Step 5: Install Soundness CLI
 echo "Installing Soundness CLI..."
-curl -sSL raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install |>
+curl -sSL raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
 # Step 6: Source bashrc again to reflect the Soundness CLI changes
 echo "Source bashrc again..."
 source ~/.bashrc
