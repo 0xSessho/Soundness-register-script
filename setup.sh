@@ -1,5 +1,9 @@
   GNU nano 6.2                               setup.sh                                        
 
+if [ ! -x "$0" ]; then
+  chmod +x "$0"
+fi
+
 # Quick setup guide for Soundness Testnet
 
 # Step 1: Update your system
